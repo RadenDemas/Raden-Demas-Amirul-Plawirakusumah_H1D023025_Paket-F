@@ -1,5 +1,5 @@
 #include <iostream>
-#define MAXQUEUE 5
+#define MAXQUEUE 4
 using namespace std;
 
 typedef struct{
@@ -64,28 +64,28 @@ void printQueue(QUEUE *Q){
 
 int main(){
 inisialisasi(&antrean);
-//Memasukkan antrean 108
-cout<<"Masukan 108"<<endl;
+//Memasukkan antrean pertama
+cout<<"Masukan 108\n";
 insert(&antrean,108);
 printQueue(&antrean);
-//Memasukkan antrean 109
-cout<<endl<<"Masukan 109"<<endl;
+//Memasukkan antrean kedua
+cout<<"\nMasukan 109\n";
 insert(&antrean,109);
 printQueue(&antrean);
-//Memasukkan antrean 110
-cout<<endl<<"Masukan 110"<<endl;
+//Memasukkan antrean ketiga
+cout<<"\nMasukan 110\n";
 insert(&antrean,110);
 printQueue(&antrean);
-//Memasukkan antrean 111
-cout<<endl<<"Masukan 111"<<endl;
+//Memasukkan antrean keempat
+cout<<"\nMasukan 111\n";
 insert(&antrean,111);
 printQueue(&antrean);
-//Menghapus antrean 108
-cout<<endl<<"Menghapus 108 dari antrean"<<endl;
+//Menghapus antrean pertama
+cout<<"\nMenghapus 108 dari antrean\n";
 hapus(&antrean);
 printQueue(&antrean);
-//Memasukkan antrean 112
-cout<<endl<<"Memasukkan 112"<<endl;
+//Memasukkan antrean kelima
+cout<<"\nMemasukkan 112\n";
 insert(&antrean,112);
 printQueue(&antrean);
 return 0;
